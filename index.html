@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faiz Rahman</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faiz Rahman | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #111;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #222;
+      color: white;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, I’m Faiz Rahman</h1>
-  <p>Welcome to my personal site.</p>
+  <header>
+    <h1>Faiz Rahman</h1>
+    <p>Marketing Strategist • Automotive Enthusiast • Builder</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a digital marketing strategist with over a decade of experience in performance automotive, motorsports, and lifestyle branding. I specialize in creating campaigns that blend emotion, story, and speed.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Fortune Auto Rebrand</h3>
+        <p>Led the creative overhaul of Fortune Auto's digital presence, resulting in a 40% boost in web traffic.</p>
+        <a href="#">View case study →</a>
+      </div>
+      <div class="project">
+        <h3>JDM Reels Strategy</h3>
+        <p>Developed engaging, viral-style Instagram Reels for Japanese Classics with over 500K views.</p>
+        <a href="#">Watch content →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p>Brand Strategy • Content Creation • Paid Media • Adobe Suite • Webflow • Shopify • Car Culture • Motorsports Marketing</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:faiz@faizrahman.com">faiz@faizrahman.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/faizrahman" target="_blank">linkedin.com/in/faizrahman</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Faiz Rahman
+  </footer>
 </body>
 </html>
